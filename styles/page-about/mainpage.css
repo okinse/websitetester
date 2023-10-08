@@ -1,0 +1,43 @@
+.cafe-stefanik-image{
+  width: 100%;
+}
+
+.page-about-title{
+  margin: 20px 0px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.page-about-text{
+  font-size: 20px;
+  text-align: justify;
+  margin: 0px 15px;
+}
+
+.logo-cafestefanik{
+  float: right;
+  width: 250px;
+  margin: 5px;
+}
+
+@media(min-width:1400px){
+  .page-about-title{
+    font-size: 60px;
+    transition: all 0.5s;
+  }
+  
+  .page-about-text{
+    font-size: 28px;
+    transition: all 0.5s;
+  }
+
+  .logo-cafestefanik{
+    width: 350px;
+    transition: all 0.5s;
+  }
+
+  .cafe-stefanik-image{
+    height: 400px;
+  }
+}
